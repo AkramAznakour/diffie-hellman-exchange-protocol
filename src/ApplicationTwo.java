@@ -12,7 +12,7 @@ public class ApplicationTwo {
 
     private static String SERVER_NAME = "localhost";
     private static int PORT = 8088;
-    private static int KEY_SIZE = 512;
+    private static int KEY_SIZE = 1024;
 
     public static void main(String[] args) {
         Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
